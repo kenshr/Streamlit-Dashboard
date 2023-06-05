@@ -1,4 +1,4 @@
-# Streamlit Dashboard
+# Streamlit Analytics Dashboard
 Building an analytics dashboard app using Streamlit.
 
 ![plot](./imgs/demo.png)
