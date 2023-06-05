@@ -27,7 +27,7 @@ with st.sidebar:
   user_filter = st.multiselect(
     label='Select User',
     options=sorted(df['user'].unique(), key=lambda x: int(re.search(r'\d+', x).group())),
-    default=df['user'][0]
+    default='user_1'
   )
   all_users = st.checkbox(
     label="Select all users",
